@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<project name="maven-antrun-" default="main"  >
+<target name="main">
+  <property name="build_file_name" value="prop.properties"/>
+  <ant antfile="D:\Git\AutoTesting/build.xml">
+    <target name="build"/>
+  </ant>
+</target>
+</project>
